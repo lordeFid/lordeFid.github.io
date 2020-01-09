@@ -1,0 +1,406 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Navigation  Starts here*/
+header {
+  margin: 15px 50px auto 50px;
+}
+
+.btn {
+  float: right;
+  margin-top: 11px;
+  background-color: #e50914;
+  padding: 6px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  border-color: #e50914;
+  border-radius: 5px;
+}
+
+/* Navigation Ends here*/
+
+/* Body Attributes are found here */
+.container {
+  /* background-color: #0c0b0b; */
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.frwdText {
+  margin-top: 100px;
+}
+
+.cta-email {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-top: -10px;
+}
+
+.h2 {
+  text-align: center;
+  color: rgba(235, 219, 219, 0.363);
+  margin-bottom: -30px;
+}
+
+.pointer {
+  padding: 1px;
+  border: 4px solid #000;
+  background: white;
+  position: absolute;
+  height: 50px;
+  margin-left: 516px;
+}
+
+.circlePointer {
+  padding: 1px;
+  border: 3px solid #fff;
+  background: #fff;
+  position: absolute;
+  height: 38px;
+  width: 38px;
+  border-radius: 100%;
+  margin-left: 650px;
+}
+
+.circlePointer2 {
+  padding: 1px;
+  border: 3px solid #fff;
+  background: #fff;
+  position: absolute;
+  height: 38px;
+  width: 38px;
+  border-radius: 100%;
+  margin-left: 985px;
+}
+
+progress[value] {
+  background-color: rgba(112, 108, 108, 0.123);
+  border-radius: 50px;
+  box-shadow: 0 2px 5px #000;
+  margin-left: 155px;
+}
+
+.message-box {
+  margin-top: 30px;
+}
+
+.reminder {
+  margin-left: 550px;
+}
+
+.envelope {
+  height: 1.6rem;
+  width: 2.3rem;
+  position: absolute;
+  margin-left: 500px;
+}
+
+h3 {
+  font-family: 'graphik',
+    Arial,
+    Helvetica,
+    sans-serif;
+  font-size: 20px;
+  margin-bottom: 0px;
+  padding-left: 30px;
+}
+
+h5,
+h6 {
+  margin-top: 18px;
+  margin-left: -50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+}
+
+h6 {
+  margin-top: -25px;
+  font-size: 14px;
+  color: blue;
+}
+
+.cta-email {
+  text-align: center;
+}
+
+ul {
+  font-size: 1.5rem;
+}
+
+li {
+  display: inline;
+  margin-right: 45px;
+  margin-left: 120px;
+}
+
+#list1 {
+  margin-right: 150px;
+}
+
+label {
+  float: left;
+  width: 10em;
+  margin-right: 1em;
+  display: block;
+}
+
+.trial-card {
+  width: 90%;
+  padding: 23px;
+}
+
+.center-bigBtn {
+  text-align: center;
+}
+
+.bigBtn {
+  border: 1px solid #e50914;
+  background: #e50914;
+  padding: 14px 30px 14px 30px;
+  font-size: 25px;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all .3ms ease-in-out;
+  margin-bottom: 50px;
+}
+
+hr {
+  padding: 3px;
+  background: #252222;
+  border-color: #252222;
+  width: 100vw;
+  position: relative;
+}
+
+.bigBtn:hover {
+  background: #0c0b0b;
+  color: #e50914;
+  border-color: white;
+}
+
+.cta-1 {
+  text-align: left;
+  margin-top: -5px;
+}
+
+.transparentBtn {
+  border: 1px solid white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  background-color: transparent;
+  color: white;
+  padding: 10px 25px;
+}
+
+.transparentBtn:hover {
+  background-color: rgb(22, 22, 22);
+  color: #e50914;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  /* margin: auto 30px auto 30px; */
+}
+
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
+
+#row {
+  padding: 8px;
+  width: 21em;
+}
+
+.container-box {
+  padding: 20px;
+  margin-left: 70px;
+}
+
+.adsImage {
+  height: 25rem;
+  width: 35rem;
+}
+
+.phone-frame {
+  height: 22rem;
+  width: 17rem;
+}
+
+.boxShot {
+  position: absolute;
+  border: 2px solid gray;
+  height: 5.5rem;
+  border-radius: 15px;
+  width: 20rem;
+  background: rgba(0, 0, 0, 0.897);
+}
+
+.boxShotImage {
+  height: 4.5em;
+  width: 3em;
+  margin-right: 50px;
+}
+
+.boxShotImage2 {
+  height: 3em;
+  width: 3em;
+  padding: 10px;
+}
+
+#left {
+  text-align: left;
+  margin-left: -80px;
+}
+
+.faqContainer {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  height: 4.5rem;
+  background-color: #353434;
+  color: #eee;
+  cursor: pointer;
+  padding: 8px;
+  width: 60%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.faqHolder {
+  margin-top: 40px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* .active,
+.collapsible:hover {
+  background-color: #ccc;
+} */
+
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0;
+  display: none;
+  overflow: hidden;
+  background-color: #444;
+  margin-top: 1px;
+  padding: 0 20px;
+}
+
+.collapsible:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 30px;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  /* content: "\02715"; */
+  content: "\02796";
+  /* Unicode character for "minus" sign (-) */
+  margin-bottom: 100px;
+}
+
+footer {
+  margin-top: 80px;
+}
+
+.footer-items {
+  margin-left: 120px;
+}
+
+.nigeria {
+  margin-left: 180px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #c4bebe;
+  margin-top: -40px;
+}
+
+.foo-links {
+  display: block;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #c4bebe;
+  text-decoration: none;
+  text-decoration-style: solid;
+}
+
+.foo-links:hover {
+  text-decoration: underline;
+}
+
+.fcolumn {
+  margin-top: -30px;
+  float: left;
+  width: 18%;
+  padding: 0px;
+
+}
+
+.contactUs {
+  margin-left: 210px;
+  padding-top: 50px;
+  color: #c4bebe;
+  text-decoration: none;
+}
+
+.contactUs:hover {
+  text-decoration: underline;
+}
+
+
+/*  End Body Attributes here */
+
+/* @media only screen and (max-width: 1449px) and (min-width: 950px) .nfLogo .svg-icon-netflix-logo {
+  height: 36px;
+  width: 134px; */
